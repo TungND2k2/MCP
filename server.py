@@ -99,7 +99,7 @@ def get_valid_token() -> str:
 # Create MCP server
 mcp = FastMCP(
     name="count-r",
-    host="127.0.0.1",
+    host="0.0.0.0",  # Đổi từ "127.0.0.1" thành "0.0.0.0"
     port=5000,
     timeout=30
 )
